@@ -7,7 +7,7 @@ Release:	1
 Group:		Applications/Databases
 License:	GPL
 URL:		http://sourceforge.net/projects/yasql/
-Source0:	http://cesnet.dl.sourceforge.net/sourceforge/yasql/%{name}_%{version}.tar.gz
+Source0:	http://cesnet.dl.sourceforge.net/sourceforge/yasql/%{name}-%{version}.tar.gz
 Buildarch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
