@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Yet Another SQL*Plus replacement
-Summary(pl):	Yet Another SQL*Plus replacement
+Summary(pl):	Yet Another SQL*Plus replacement - jeszcze jeden zamiennik SQL*Plus
 Name:		yasql
 Version:	1.82
 Release:	1
 Group:		Applications/Databases
 License:	GPL v2
-Source0:	http://dl.sourceforge.net/sourceforge/yasql/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/yasql/%{name}-%{version}.tar.gz
 # Source0-md5:	1189d1308d21d42318673d128bf926e3
 URL:		http://sourceforge.net/projects/yasql/
 BuildRequires:	rpm-perlprov
@@ -30,22 +30,23 @@ powstania programu jest przegl±danie danych w bazie lub testowanie
 pytañ. Nie jest jednak intencj± fantazyjnych takich, jakie s± dostêpne
 w SQL*Plus. Nie ma tu równie¿ niczego co by przypomina³o jêzyk
 skryptowy podobny do PL/SQL. Ma kilka w³asnych komend, takich jak
-describe, show, quit; reszta jest przesy³ana do serwera Oracla.
+describe, show, quit; reszta jest przesy³ana do serwera Oracle'a.
 
 %prep
 %setup -q
 
 %build
-./configure --sysconfdir=%{_sysconfdir}
+./configure \
+	--sysconfdir=%{_sysconfdir}
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1,%{_sysconfdir}}
 
-install -m 755 yasql $RPM_BUILD_ROOT%{_bindir}/
-install yasql.1 $RPM_BUILD_ROOT%{_mandir}/man1/
-install yasql.conf $RPM_BUILD_ROOT%{_sysconfdir}/
+install yasql $RPM_BUILD_ROOT%{_bindir}
+install yasql.1 $RPM_BUILD_ROOT%{_mandir}/man1
+install yasql.conf $RPM_BUILD_ROOT%{_sysconfdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
