@@ -5,8 +5,8 @@ Name:		yasql
 Version:	1.82
 Release:	1
 Group:		Applications/Databases
-License:	GPL
-Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
+License:	GPL v2
+Source0:	http://dl.sourceforge.net/sourceforge/yasql/%{name}-%{version}.tar.gz
 # Source0-md5:	1189d1308d21d42318673d128bf926e3
 URL:		http://sourceforge.net/projects/yasql/
 BuildRequires:	rpm-perlprov
