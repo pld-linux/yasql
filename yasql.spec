@@ -9,6 +9,7 @@ License:	GPL
 URL:		http://sourceforge.net/projects/yasql/
 Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	30ea822727aebd53ad1f5a3fe569718a
+BuildRequires:	rpm-perlprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
