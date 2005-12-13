@@ -56,4 +56,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc README yasql.html
 %attr(755,root,root) %{_bindir}/yasql
 %{_mandir}/man1/yasql.1*
-%config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/yasql.conf
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/yasql.conf
