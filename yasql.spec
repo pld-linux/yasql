@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Yet Another SQL*Plus replacement
-Summary(pl):	Yet Another SQL*Plus replacement - jeszcze jeden zamiennik SQL*Plus
+Summary(pl.UTF-8):   Yet Another SQL*Plus replacement - jeszcze jeden zamiennik SQL*Plus
 Name:		yasql
 Version:	1.82
 Release:	1
@@ -23,14 +23,14 @@ sort of scripting language such as PL/SQL. It has a few native
 commands, such as describe, show, quit, and everything else is passed
 through to the Oracle server.
 
-%description -l pl
-Co¶ w rodzaju SQL*Plusa. Nie zawiera wszystkich bajerów orygina³u,
-jedynie te niezbêdne do zadawania szybkich zapytañ. G³ówn± intencj±
-powstania programu jest przegl±danie danych w bazie lub testowanie
-pytañ. Nie jest jednak intencj± fantazyjnych takich, jakie s± dostêpne
-w SQL*Plus. Nie ma tu równie¿ niczego co by przypomina³o jêzyk
-skryptowy podobny do PL/SQL. Ma kilka w³asnych komend, takich jak
-describe, show, quit; reszta jest przesy³ana do serwera Oracle'a.
+%description -l pl.UTF-8
+CoÅ› w rodzaju SQL*Plusa. Nie zawiera wszystkich bajerÃ³w oryginaÅ‚u,
+jedynie te niezbÄ™dne do zadawania szybkich zapytaÅ„. GÅ‚Ã³wnÄ… intencjÄ…
+powstania programu jest przeglÄ…danie danych w bazie lub testowanie
+pytaÅ„. Nie jest jednak intencjÄ… fantazyjnych takich, jakie sÄ… dostÄ™pne
+w SQL*Plus. Nie ma tu rÃ³wnieÅ¼ niczego co by przypominaÅ‚o jÄ™zyk
+skryptowy podobny do PL/SQL. Ma kilka wÅ‚asnych komend, takich jak
+describe, show, quit; reszta jest przesyÅ‚ana do serwera Oracle'a.
 
 %prep
 %setup -q
