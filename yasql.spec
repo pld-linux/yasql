@@ -2,12 +2,12 @@
 Summary:	Yet Another SQL*Plus replacement
 Summary(pl.UTF-8):	Yet Another SQL*Plus replacement - jeszcze jeden zamiennik SQL*Plus
 Name:		yasql
-Version:	1.82
+Version:	1.83
 Release:	1
 Group:		Applications/Databases
 License:	GPL v2
 Source0:	http://dl.sourceforge.net/yasql/%{name}-%{version}.tar.gz
-# Source0-md5:	1189d1308d21d42318673d128bf926e3
+# Source0-md5:	c580402d20df6a1a0efe72d65a40ff0d
 URL:		http://sourceforge.net/projects/yasql/
 BuildRequires:	rpm-perlprov
 BuildArch:	noarch
