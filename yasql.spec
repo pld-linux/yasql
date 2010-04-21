@@ -3,7 +3,7 @@ Summary:	Yet Another SQL*Plus replacement
 Summary(pl.UTF-8):	Yet Another SQL*Plus replacement - jeszcze jeden zamiennik SQL*Plus
 Name:		yasql
 Version:	1.83
-Release:	1
+Release:	2
 Group:		Applications/Databases
 License:	GPL v2
 Source0:	http://dl.sourceforge.net/yasql/%{name}-%{version}.tar.gz
