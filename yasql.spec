@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Yet Another SQL*Plus replacement
 Summary(pl.UTF-8):	Yet Another SQL*Plus replacement - jeszcze jeden zamiennik SQL*Plus
 Name:		yasql
